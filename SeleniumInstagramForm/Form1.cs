@@ -29,8 +29,8 @@ namespace SeleniumInstagramForm
             driver.Navigate().GoToUrl("https://www.instagram.com/accounts/login/?next=%2Flogin%2F&source=desktop_nav");//Bu driver nesnesi ile gitmek istediğimiz sayfayı göstereceğiz.
 
             Thread.Sleep(1000);
-            driver.FindElement(By.Name("username")).SendKeys("meertagca"); //Thread.Sleep(2000);
-            driver.FindElement(By.Name("password")).SendKeys("636358Ma"); //Thread.Sleep(2000);
+            driver.FindElement(By.Name("username")).SendKeys(""); //Thread.Sleep(2000);
+            driver.FindElement(By.Name("password")).SendKeys(""); //Thread.Sleep(2000);
             driver.FindElement(By.XPath("//button[@class='sqdOP  L3NKy   y3zKF     ']")).Click();
             Console.WriteLine("Yazdığım yazı ekrana geldi."); //İşlem gerçekleşirse oluşacak çıktıyı buraya yazıyoruz.
             //driver.Quit(); //Açtığımız Google Chrome’u kapattık ve test işlemini sona erdirdik.
