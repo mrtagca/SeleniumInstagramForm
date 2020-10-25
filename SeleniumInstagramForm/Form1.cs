@@ -35,7 +35,7 @@ namespace SeleniumInstagramForm
             Console.WriteLine("Yazdığım yazı ekrana geldi."); //İşlem gerçekleşirse oluşacak çıktıyı buraya yazıyoruz.
             //driver.Quit(); //Açtığımız Google Chrome’u kapattık ve test işlemini sona erdirdik.
 
-
+            //test
             Thread.Sleep(3500);
             driver.Navigate().GoToUrl("https://www.instagram.com/explore/tags/computerprogramming/"); Thread.Sleep(1000);
 
